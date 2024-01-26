@@ -179,23 +179,6 @@ span {
   align-self: end;
 }
 
-#navbar-footer p {
-  color: var(--sc);
-  font-size: var(--fs-xsm);
-  text-align: center;
-  margin-top: 16px;
-  font-weight: 200;
-}
-
-#navbar-footer p a {
-  color: var(--sc);
-  font-size: var(--fs-xsm);
-}
-
-#navbar-footer p a:hover {
-  text-decoration: underline;
-}
-
 /* navbar end */
 
 /* main start */
