@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="to do app, schedule, planner" />
+    <meta name="description" content="To do app named with just" />
+    <meta name="author" content="Yavuz Karakuş" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/favicon-just.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="./css/main.css"
+      media="screen"
+      type="text/css"
+    />
+    <title>Just Todo App</title>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <nav id="app-navbar">
+      <header id="navbar-header">
+        <a href="#" id="app-logo">
+          <img src="./assets/Just Logo.svg" alt="just-logo" />
+        </a>
+        <section id="search-bar">
+          <i class="bi bi-search"></i>
+          <input type="text" placeholder="Ara" />
+        </section>
+      </header>
+
+      <main id="navbar-main">
+        <ul id="navbar-list">
+          <li class="list-item active">
+            <a href="#1">
+              <i class="bi bi-backpack2"></i>
+              Günüm
+              <span>0</span>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#2">
+              <i class="bi bi-star"></i>
+              Önemli
+              <span>0</span>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#3">
+              <i class="bi bi-calendar-check"></i>
+              Tamamlananlar
+              <span>0</span>
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="#4">
+              <i class="bi bi-archive"></i>
+              Tüm Görevler
+              <span>0</span>
+            </a>
+          </li>
+        </ul>
+      </main>
+
+      <footer id="navbar-footer">
+        <section id="profile">
+          <img src="./assets/Profil Fotoğrafı Kare.jpg" alt="pp-img" />
+          <div>
+            <h3>Yavuz Karakuş</h3>
+            <a href="#">karakuss.yavuz@gmail.com</a>
+          </div>
+        </section>
+        <p>
+          Designed by
+          <a href="https://github.com/yavuzkarakus" target="_blank"
+            >Just's Designers</a
+          >
+        </p>
+      </footer>
+    </nav>
+
+    <main id="app-main">
+      <header id="main-header">
+        <h1>
+          <i class="bi bi-backpack2"></i>
+          Günüm
+        </h1>
+      </header>
+      <main id="main-main"></main>
+      <footer id="main-footer"></footer>
+    </main>
+  </body>
+</html>
