@@ -1,0 +1,36 @@
+{
+  "name": "just-to-do-app",
+  "version": "1.0.0",
+  "description": "Just Todo App",
+  "source": "./src/index.html",
+  "scripts": {
+    "start": "npx parcel",
+    "start:server": "npx json-server --watch db.json --port 3003",
+    "build": "npx parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yavuzkarakus/justTodoApp.git"
+  },
+  "keywords": [
+    "todo",
+    "app",
+    "design",
+    "just"
+  ],
+  "author": "Yavuz Karakuş",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yavuzkarakus/justTodoApp/issues"
+  },
+  "homepage": "https://github.com/yavuzkarakus/justTodoApp#readme",
+  "devDependencies": {
+    "json-server": "^1.0.0-alpha.23",
+    "parcel": "^2.11.0"
+  },
+  "dependencies": {
+    "@fontsource/poppins": "^5.0.8",
+    "bootstrap-icons": "^1.11.3"
+  }
+}

@@ -7,7 +7,7 @@
     <meta name="description" content="To do app named with just" />
     <meta name="author" content="Yavuz Karakuş" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/favicon-just.png" type="image/x-icon" />
+    <link rel="icon" href="../assets/favicon-just.png" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="./css/main.css"
@@ -15,13 +15,13 @@
       type="text/css"
     />
     <title>Just Todo App</title>
-    <script src="./app.js" defer></script>
+    <script type="module" src="./app.js" defer></script>
   </head>
   <body>
     <nav id="app-navbar">
       <header id="navbar-header">
         <a href="#" id="app-logo">
-          <img src="./assets/Just Logo.svg" alt="just-logo" />
+          <img src="../assets/just-logo.svg" alt="just-logo" />
         </a>
         <section id="search-bar">
           <i class="bi bi-search"></i>
@@ -64,7 +64,7 @@
 
       <footer id="navbar-footer">
         <section id="profile">
-          <img src="./assets/Profil Fotoğrafı Kare.jpg" alt="pp-img" />
+          <img src="../assets/pp-photo-square.jpg" alt="pp-img" />
           <div>
             <h3>Yavuz Karakuş</h3>
             <a href="#">karakuss.yavuz@gmail.com</a>
@@ -79,9 +79,21 @@
           <i class="bi bi-backpack2"></i>
           Günüm
         </h1>
+        <div id="bg-changer">
+          <i class="bi bi-three-dots"></i>
+        </div>
       </header>
-      <main id="main-main"></main>
-      <footer id="main-footer"></footer>
+      <main id="main-main">
+        <ul id="main-list">
+          <li>
+            <label for=""></label>
+            <input type="radio" />
+          </li>
+        </ul>
+      </main>
+      <footer id="main-footer">
+        <input type="text" placeholder="Görev Ekle" />
+      </footer>
     </main>
   </body>
 </html>

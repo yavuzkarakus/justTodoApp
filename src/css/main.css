@@ -184,10 +184,16 @@ span {
 /* main start */
 
 #app-main {
-  background-image: url(../assets/main-bg-1.jpg);
+  background-image: url(../../assets/main-bg-1.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: var(--p-l);
+}
+
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1,
@@ -195,4 +201,26 @@ h1 i {
   font-size: var(--fs-xl);
   font-weight: 600;
   color: var(--sc);
+}
+
+#bg-changer {
+  width: 30px;
+  border-radius: var(--br-sm);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg-changer:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+#bg-changer i {
+  color: var(--sc);
+  font-size: var(--fs-m);
+}
+
+#main-footer input{
+  
 }
